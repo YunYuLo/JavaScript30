@@ -26,8 +26,10 @@ The default sort order is built upon converting the elements into strings, then 
 method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
 
 Sum up the instances of each of these
+
     ```javascript
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+    
     const transportation = data.reduce(function(obj, item){
       if (!obj[item]) { //如果item不存在，則新增一個類別入{ }
         obj[item] = 0
@@ -50,7 +52,7 @@ Sum up the instances of each of these
     //Method 2: [... ]
     const category = [...document.querySelectorAll('.mw-category a'))]
     ```
-    - 利用 map 擷取資料，filter篩選
+ 利用 map 擷取資料，filter篩選
     ```javascript
     const de = category
        .map(link => link.textContent)
