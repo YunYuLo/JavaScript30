@@ -27,7 +27,6 @@ method executes a reducer function (that you provide) on each element of the arr
 
 Sum up the instances of each of these
 
-    ```javascript
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
     
     const transportation = data.reduce(function(obj, item){
@@ -38,24 +37,19 @@ Sum up the instances of each of these
       return obj
     }, {})
     console.log(transportation)
-    ```
 
 ## Array.map() && Array.filter()
 
 由querySelectorAll()獲取到的是一個 NodeList ，而非是 Array 類型的數據，所以並不具有 map 和 filter 這樣的方法，所以如果要進行篩選操作則需要把他轉化成 Array 類型。
     
-    ```javascript
     //converting NodeList to Array
     //Method 1: Array.from()
     const category = Array.from(document.querySelectorAll('.mw-category a'))
 
     //Method 2: [... ]
     const category = [...document.querySelectorAll('.mw-category a'))]
-    ```
  利用 map 擷取資料，filter篩選
  
-    ````js
     const de = category
        .map(link => link.textContent)
        .filter(streetName => streetName.includes('de'))
-    ````
