@@ -53,6 +53,7 @@ Sum up the instances of each of these
     const category = [...document.querySelectorAll('.mw-category a'))]
     ```
  利用 map 擷取資料，filter篩選
+ 
     ```javascript
     const de = category
        .map(link => link.textContent)
