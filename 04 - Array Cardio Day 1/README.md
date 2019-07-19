@@ -9,12 +9,18 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 # Array Cardio
 ## [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)method creates a new array with all elements that pass the test implemented by the provided function. 篩選出符合條件(return true)的結果。
 
-## [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)method **creates a new array** with the results of calling a provided function on every element in the calling array. 每個元素處理後產出新的Array。
+## [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
-## [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)method sorts the elements of an array in place and returns the sorted array. 重新排列組合
+method **creates a new array** with the results of calling a provided function on every element in the calling array. 每個元素處理後產出新的Array。
+
+## [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+
+method sorts the elements of an array in place and returns the sorted array. 重新排列組合
     - The default sort order is built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.預設為根據字串中的**第一個字母**作升序排列。
 
-## [Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+## [Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+
+method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
     - Sum up the instances of each of these
     ```javascript
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
