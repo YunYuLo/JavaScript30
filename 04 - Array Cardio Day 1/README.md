@@ -54,8 +54,8 @@ Sum up the instances of each of these
     ```
  利用 map 擷取資料，filter篩選
  
-    ```javascript
+    ````js
     const de = category
        .map(link => link.textContent)
        .filter(streetName => streetName.includes('de'))
-    ```
+    ````
