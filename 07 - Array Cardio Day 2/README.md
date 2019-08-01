@@ -29,5 +29,4 @@ method returns **the index of the first element in the array** that satisfies th
    
    ```
       const currentYear = (newDate()).getFullYear()
-
-    ```
+   ```
