@@ -90,7 +90,7 @@ body {
   flex: 10;
   position: relative;
   display: flex;
-  flex-basis: 100%;
+  flex-basis: 100%; //progress bar changed by this
   height: 5px;
   transition: height 0.3s;
   background: rgba(0,0,0,0.5);
@@ -101,7 +101,7 @@ body {
   width: 50%;
   background: #ffc600;
   flex: 0;
-  flex-basis: 50%;
+  flex-basis: 0%;
 }
 
 /* unholy css to style input type="range" */
