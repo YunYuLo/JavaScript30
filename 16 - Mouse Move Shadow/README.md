@@ -16,8 +16,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
   - MouseEvent.offsetY
 - 2ways to define variables
 
-
-  1.
+1.
 ```javascript
   const width = hero.offsetWidth 
   const height = hero.offsetHeight
@@ -25,7 +24,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
   let y = e.offsetY
 ```
 
-  2.
+2.
 
 ```javascript
   const { offsetWidth: width, offsetHeight: height } = hero
