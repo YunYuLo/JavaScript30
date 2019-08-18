@@ -15,6 +15,8 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
   - MouseEvent.offsetX
   - MouseEvent.offsetY
 - 2ways to define variables
+
+
   1.
 ```javascript
   const width = hero.offsetWidth 
